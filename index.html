@@ -19,7 +19,7 @@
 </head>
 
 <body>
-<audio id="myAudio" src="music.mp3" autoplay></audio>
+
 <div id="mainDiv">
 	<div id="content">
 		<div id="code">
@@ -60,8 +60,8 @@
 					<div id="elapseClock"></div>
 				</div>
 				<div id="loveu">
-						<br/><br/><br/><br/><br/>The 'SELENOPHILE' KRITIKA, You look beautiful everyday if you remain mad your panda will be unhappy, do you wanna make him unhappy? <br/>
-						Accha chalo aaj maan jao , next time aapko aapke upar ek acchi poem sunaunga that you will wonder, how I wrote it ... hahahahah <br/>
+						<br/><br/><br/><br/><br/>The 'SeLoNoPhIlE' KRITIKA, You look beautiful everyday if you remain mad your panda will be unhappy, then it won't come in your dream? <br/>
+						Accha chalo aaj maan jao , Kaan pakad ke sorry abhi se ignore nhi krunga ya cute nhi bolenge kisi ko ab khush ab hasss jao chalo ... hahahahah <br/>
 					<div class="signature">- Chirag</div>
 				</div>
 			</div>
@@ -102,24 +102,5 @@ if (!document.createElement('canvas').getContext) {
 	$("#code").typewriter();
 }
 </script>
-<script>
-    // Set the website title to the song name
-    document.title = "Cutest Kritika";
-
-    // Optionally: Unhide the audio controls for debugging
-    // document.getElementById("myAudio").controls = true;
-
-    // Try to play audio automatically (may require user interaction due to browser autoplay policies)
-    window.onload = function() {
-      var audio = document.getElementById("myAudio");
-      audio.play().catch(function(err) {
-        // Autoplay might be blocked, inform the user
-        alert("Click anywhere to play the song!");
-        document.body.addEventListener('click', function() {
-          audio.play();
-        }, { once: true });
-      });
-    };
-  </script>
 </body>
 </html>
